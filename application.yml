@@ -2,7 +2,8 @@ spring:
   cloud:
     consul:
       config:
-        enabled: true
+#        si la config est synchronisée par consul (requiert dépdce)
+        enabled: false
       discovery:
 #        tells the system to use IP rather than host name for discovery. !! si TRUE -> KO
         prefer-ip-address: false
