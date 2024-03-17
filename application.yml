@@ -1,5 +1,10 @@
-#spring:
-#  cloud:
-#    consul:
+spring:
+  cloud:
+    consul:
+      config:
+        enabled: false
+      discovery:
+#        tells the system to use IP rather than host name for discovery.
+        prefer-ip-address: true
 #      host: 127.0.0.1
 #      port: 8500
