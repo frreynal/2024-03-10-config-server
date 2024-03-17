@@ -5,6 +5,6 @@ spring:
         enabled: true
       discovery:
 #        tells the system to use IP rather than host name for discovery.
-        prefer-ip-address: true
+        prefer-ip-address: false
 #      host: 127.0.0.1
 #      port: 8500
