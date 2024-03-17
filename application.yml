@@ -2,7 +2,7 @@ spring:
   cloud:
     consul:
       config:
-        enabled: false
+        enabled: true
       discovery:
 #        tells the system to use IP rather than host name for discovery.
         prefer-ip-address: true
